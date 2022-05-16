@@ -26,5 +26,6 @@ program.
 Basically the same instructions can be followed to get back up and running,
 only now you don't need to install anything. Launch the command line then:
 
-1. Enter the mapper interactive project by running `cd MapperInteractive`
-2. You can now run MapperInteractive by running `python run.py`
+1. Activate the virtual environment by running `conda activate mapper`
+2. Enter the mapper interactive project by running `cd MapperInteractive`
+3. You can now run MapperInteractive by running `python run.py`

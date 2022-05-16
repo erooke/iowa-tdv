@@ -23,6 +23,7 @@ anaconda navigator or directly from the start menu.
 Basically the same instructions can be followed to get back up and running,
 only now you don't need to install anything. Launch the command line then:
 
-1. Enter the DREiMac project by running `cd DREiMac`
-2. You can now run the notebooks by running `jupyter notebook` and navigating
+1. Activate the virtual environment by running `conda activate dreimac`
+2. Enter the DREiMac project by running `cd DREiMac`
+3. You can now run the notebooks by running `jupyter notebook` and navigating
    to the notebooks folder
