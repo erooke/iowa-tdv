@@ -1,26 +1,30 @@
 # Open source mapper implementations
 
+These instructions take place on the command line. If you are windows we are
+looking to launch the anaconda powershell prompt. You can do this from either
+anaconda navigator or directly from the start menu.
+
 ## Installation
 
-1. Open the anaconda navigator. (Windows only)
-2. Launch the powershell prompt from the navigator (not the cmd.exe prompt,
-   Windows only)
-3. Create a new virtual environment by running `conda create -n mapper`
-4. Activate the new virtual environment by running `conda activate mapper`
-5. Install all the dependencies by running `pip install kmapper giotto-tda
+1. Create a new virtual environment by running `conda create -n mapper`
+2. Activate the new virtual environment by running `conda activate mapper`
+3. Install pip and git `conda install git pip`
+4. Install all the dependencies by running `pip install kmapper giotto-tda
    scikit-learn networkx flask flask_assets statsmodels`
-6. Clone the mapper interactive project by running `git clone
+5. Clone the mapper interactive project by running `git clone
    https://github.com/MapperInteractive/MapperInteractive`
-7. Enter the mapper interactive project by running `cd MapperInteractive`
-8. You can now run MapperInteractive by running `python run.py`
+6. Enter the mapper interactive project by running `cd MapperInteractive`
+7. You can now run MapperInteractive by running `python run.py`
+
+After running the last command you should have a webserver start. To see the
+program go to your browser (MapperInteractive recommends using google chrome)
+and navigate to `127.0.0.1:8080`. `ctrl-c` in the command line should stop the
+program.
 
 ## Returning
 
 Basically the same instructions can be followed to get back up and running,
-only now you don't need to install anything
+only now you don't need to install anything. Launch the command line then:
 
-1. Open the anaconda navigator. (Windows only)
-2. Launch the powershell prompt from the navigator (not the cmd.exe prompt,
-   Windows only)
-3. Enter the mapper interactive project by running `cd MapperInteractive`
-4. You can now run MapperInteractive by running `python run.py`
+1. Enter the mapper interactive project by running `cd MapperInteractive`
+2. You can now run MapperInteractive by running `python run.py`
