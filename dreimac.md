@@ -15,7 +15,8 @@ anaconda navigator or directly from the start menu.
 5. Clone the DREiMac project by running `git clone
    https://github.com/ctralie/DREiMac.git`
 6. Enter the DREiMac project by running `cd DREiMac`
-7. You can now run the notebooks by running `jupyter notebook` and navigating
+7. Install DREiMac by running `python setup.py install`
+8. You can now run the notebooks by running `jupyter notebook` and navigating
    to the notebooks folder
 
 ## Returning
